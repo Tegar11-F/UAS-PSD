@@ -66,3 +66,4 @@ validators==0.20.0
 watchdog==2.1.9
 wrapt==1.12.1
 zipp==3.10.0
+matplotlib=3.7.1
