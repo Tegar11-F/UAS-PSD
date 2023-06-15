@@ -1,31 +1,19 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-
 import yfinance as yf
 import pandas as pd
 import pickle
-
 from numpy import array
-from numpy import array
-
 from sklearn.preprocessing import MinMaxScaler
-
-import joblib
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error
 from sklearn.neighbors import KNeighborsRegressor
-
-from sklearn.metrics import mean_absolute_percentage_error
-
 from sklearn.tree import DecisionTreeRegressor
-from sklearn.metrics import mean_absolute_percentage_error
-
 from sklearn.neural_network import MLPRegressor
 from sklearn.exceptions import ConvergenceWarning
 import warnings
-
 from sklearn.metrics import mean_absolute_percentage_error
 
 # st.sidebar.title("Selamat Datang!")
